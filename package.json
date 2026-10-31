@@ -1,0 +1,26 @@
+{
+  "name": "calcium-myth-bone-loss-video",
+  "version": "1.0.0",
+  "description": "Story-driven 2D motion graphics Remotion video on bone loss and calcium science",
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render Main out/calcium-myth-video.mp4 --props='{\"enableAudio\":true}'",
+    "render": "remotion render Main out/calcium-myth-video.mp4",
+    "still": "remotion still Main out/frame.png --frame=260",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.140",
+    "@remotion/media-utils": "^4.0.140",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.140",
+    "@fontsource/hind-siliguri": "5.3.0",
+    "@fontsource/noto-emoji": "5.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
